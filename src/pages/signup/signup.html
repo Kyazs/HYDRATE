@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <section class="right">
+        <img src="" alt="">
+    </section>
+
+    <section class="left">
+        <h1>Sign Up</h1>
+        <p>Already have an account? <a href="../signin/signin.html">Log In</a></p>
+        <form action="signin.php" method="post">
+            <!-- <label for="username">Username:</label> -->
+            <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+            <!-- <label for="password">Password:</label> -->
+            <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="address" name="address" id="address" placeholder="Address">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="password" name="password" id="password" placeholder="Confirm Password">
+            <input type="submit" value="Sign Up" class="signInButton" href="../../views/home/index.html">
+        </form>
+        <h2>Or</h2>
+        <p>Sign up with</p>
+        <div class="links">
+            <img src="../../assets/icons/icons8-facebook.svg" alt="facebook">
+            <img src="../../assets/icons/icons8-google.svg" alt="google">
+            <img src="../../assets/icons/icons8-twitter.svg" alt="twitter">
+        </div>
+    </section>
+</body>
+</html>
